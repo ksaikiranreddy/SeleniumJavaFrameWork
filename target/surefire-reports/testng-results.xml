@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Running Smoke Suite on Windows 10 - Chrome Browser" duration-ms="16103" started-at="2020-07-18T14:00:17 IST" finished-at="2020-07-18T14:00:33 IST">
+    <groups>
+    </groups>
+    <test name="Homepage Tests" duration-ms="16103" started-at="2020-07-18T14:00:17 IST" finished-at="2020-07-18T14:00:33 IST">
+      <class name="com.application.testsuites.SmokeSuite">
+        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:com.application.testsuites.SmokeSuite@7bedc48a]" name="initiateBrowser" is-config="true" duration-ms="6891" started-at="2020-07-18T14:00:18 IST" finished-at="2020-07-18T14:00:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.application.testsuites.SmokeSuite@7bedc48a]" name="login" duration-ms="7403" started-at="2020-07-18T14:00:25 IST" data-provider="loginData" finished-at="2020-07-18T14:00:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.testsuites.SmokeSuite@7bedc48a]" name="closeBrowser" is-config="true" duration-ms="694" started-at="2020-07-18T14:00:33 IST" finished-at="2020-07-18T14:00:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.application.testsuites.SmokeSuite -->
+    </test> <!-- Homepage Tests -->
+  </suite> <!-- Running Smoke Suite on Windows 10 - Chrome Browser -->
+</testng-results>

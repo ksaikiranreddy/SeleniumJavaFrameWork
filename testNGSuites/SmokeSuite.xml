@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name ="Running Smoke Suite on Windows 10 - Chrome Browser">
+    <listeners>
+        <listener class-name="com.application.listeners.Reports"/>
+    </listeners>
+    <test name = "Homepage Tests">
+        <classes>
+            <class name="com.application.testsuites.SmokeSuite"/>
+        </classes>
+    </test>
+</suite>

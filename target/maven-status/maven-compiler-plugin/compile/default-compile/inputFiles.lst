@@ -1,0 +1,11 @@
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\pages\locators\HomePageLocators.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\basesetup\BrowserSetup.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\pages\methods\DashboardPageMethods.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\listeners\Reports.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\pages\methods\HomePageMethods.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\utilities\commons\CommonVariables.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\utilities\seleniumutils\SeleniumActions.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\pages\locators\DashboardPageLocators.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\utilities\filehandlingutils\ReadProperties.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\utilities\filehandlingutils\ExcelUtilities.java
+F:\Practice\Frameworks\SeleniumJavaFramework01\src\main\java\com\application\utilities\synchronization\Waits.java

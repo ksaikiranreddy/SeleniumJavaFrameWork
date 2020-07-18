@@ -1,0 +1,4 @@
+com\application\testsuites\RegressionSuite.class
+com\application\testsuites\SmokeSuite.class
+com\application\testsuites\SanitySuite.class
+com\application\dataproviders\SmokeSuiteData.class

@@ -1,0 +1,11 @@
+com\application\utilities\filehandlingutils\ExcelUtilities.class
+com\application\utilities\synchronization\Waits.class
+com\application\utilities\seleniumutils\SeleniumActions.class
+com\application\utilities\filehandlingutils\ReadProperties.class
+com\application\pages\methods\HomePageMethods.class
+com\application\listeners\Reports.class
+com\application\basesetup\BrowserSetup.class
+com\application\pages\methods\DashboardPageMethods.class
+com\application\pages\locators\HomePageLocators.class
+com\application\utilities\commons\CommonVariables.class
+com\application\pages\locators\DashboardPageLocators.class
