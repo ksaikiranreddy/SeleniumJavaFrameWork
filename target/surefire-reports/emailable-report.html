@@ -9,10 +9,28 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Running Smoke Suite on Windows 10 - Chrome Browser</th></tr>
-<tr><td><a href="#t0">Homepage Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,103</td><td></td><td></td></tr>
+<tr><td><a href="#t0">welcome page Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">26,967</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Running Smoke Suite on Windows 10 - Chrome Browser</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Homepage Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.application.testsuites.SmokeSuite</td><td><a href="#m0">login</a></td><td rowspan="1">1595061025805</td><td rowspan="1">7403</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Running Smoke Suite on Windows 10 - Chrome Browser</th></tr></tbody><tbody id="t0"><tr><th colspan="4">welcome page Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.application.testsuites.SimpleFormDemoPage</td><td><a href="#m0">perform_addition</a></td><td rowspan="1">1613292312103</td><td rowspan="1">8</td></tr><tr><th colspan="4">welcome page Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.application.testsuites.JavaScriptsAlertsPage</td><td><a href="#m1">navigate_JavascriptAlertPage</a></td><td rowspan="1">1613292316804</td><td rowspan="1">910</td></tr><tr class="passedeven"><td><a href="#m2">verifyAlertBox</a></td><td rowspan="1">1613292317717</td><td rowspan="1">73</td></tr><tr class="passedeven"><td><a href="#m3">verifyConfirmBox</a></td><td rowspan="1">1613292317791</td><td rowspan="1">86</td></tr><tr class="passedeven"><td><a href="#m4">verifyPromptBox</a></td><td rowspan="1">1613292317878</td><td rowspan="1">181</td></tr><tr class="passedodd"><td rowspan="1">com.application.testsuites.SelectDropdownPage</td><td><a href="#m5">selectDropdown</a></td><td rowspan="1">1613292308249</td><td rowspan="1">2684</td></tr><tr class="passedeven"><td rowspan="1">com.application.testsuites.SimpleFormDemoPage</td><td><a href="#m6">simple_form_demo_page</a></td><td rowspan="1">1613292300277</td><td rowspan="1">1241</td></tr></tbody>
 </table>
-<h2>Homepage Tests</h2><h3 id="m0">com.application.testsuites.SmokeSuite#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>test</td><td>Test@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>welcome page Test</h2><h3 id="m0">com.application.testsuites.SimpleFormDemoPage#perform_addition</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN01N02824&apos;, ip: &apos;192.168.43.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+	at com.application.utilities.synchronization.Waits.implicitWaitForSecs(Waits.java:24)
+	at com.application.pages.methods.SimpleFormDemoMethods.addition_operation(SimpleFormDemoMethods.java:20)
+	at com.application.testsuites.SimpleFormDemoPage.perform_addition(SimpleFormDemoPage.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.application.testsuites.JavaScriptsAlertsPage#navigate_JavascriptAlertPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.application.testsuites.JavaScriptsAlertsPage#verifyAlertBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.application.testsuites.JavaScriptsAlertsPage#verifyConfirmBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.application.testsuites.JavaScriptsAlertsPage#verifyPromptBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.application.testsuites.SelectDropdownPage#selectDropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.application.testsuites.SimpleFormDemoPage#simple_form_demo_page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

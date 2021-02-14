@@ -1,0 +1,7 @@
+[INFO ] 2021-02-04 22:27:31.657 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-02-04 22:27:34.369 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-02-04 22:27:36.790 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-02-04 22:27:38.034 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-02-04 22:27:38.092 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-02-04 22:27:38.996 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Window Popup Modal')]
+[INFO ] 2021-02-04 22:27:40.160 [main] BrowserSetup - **********************Browser Closed*********************************

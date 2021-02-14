@@ -1,0 +1,28 @@
+[INFO ] 2021-01-25 19:57:35.655 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-25 19:57:39.907 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-25 19:57:39.962 [main] Reports - **************************Test Started :welcome
+[INFO ] 2021-01-25 19:57:49.391 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 19:57:49.510 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-25 19:57:49.557 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-25 19:57:49.561 [main] Reports - ************************ Test Passed :welcome
+[INFO ] 2021-01-25 19:57:50.719 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-01-25 19:57:50.724 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-01-25 19:57:50.983 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-25 19:57:54.328 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-25 19:58:02.450 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 19:58:02.549 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-25 19:58:02.599 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-25 19:58:02.600 [main] Reports - **************************Test Started :simple_form_demo_page
+[INFO ] 2021-01-25 19:58:04.208 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Simple Form Demo')]
+[INFO ] 2021-01-25 19:58:04.210 [main] Reports - ************************ Test Passed :simple_form_demo_page
+[INFO ] 2021-01-25 19:58:04.213 [main] Reports - **************************Test Started :perform_addition
+[INFO ] 2021-01-25 19:58:04.372 [main] SeleniumActions - Entered 4 in By.cssSelector: input#sum1.form-control
+[INFO ] 2021-01-25 19:58:04.432 [main] SeleniumActions - Entered 5 in By.cssSelector: input#sum2.form-control
+[INFO ] 2021-01-25 19:58:04.474 [main] SeleniumActions - Clicking on element By.xpath: //button[contains(text(),'Get Total')]
+[INFO ] 2021-01-25 19:58:04.498 [main] Reports - ************************ Test Passed :perform_addition
+[INFO ] 2021-01-25 19:58:05.651 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-01-25 19:58:05.679 [main] Reports - **************************Test Started :checkBoxDemoPage
+[WARN ] 2021-01-25 19:58:05.680 [main] Reports - ************************ Test Skipped :checkBoxDemoPage
+[INFO ] 2021-01-25 19:58:05.688 [main] Reports - **************************Test Started :selectDropdown
+[WARN ] 2021-01-25 19:58:05.688 [main] Reports - ************************ Test Skipped :selectDropdown
+[INFO ] 2021-01-25 19:58:05.689 [main] BrowserSetup - **********************Browser Closed*********************************

@@ -1,0 +1,14 @@
+[INFO ] 2021-01-25 18:12:50.942 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-25 18:12:55.189 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-25 18:12:55.212 [main] Reports - **************************Test Started :welcome
+[INFO ] 2021-01-25 18:12:58.078 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 18:12:58.931 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-25 18:12:59.053 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-25 18:12:59.055 [main] Reports - ************************ Test Passed :welcome
+[INFO ] 2021-01-25 18:12:59.068 [main] Reports - **************************Test Started :checkBoxDemoPage
+[INFO ] 2021-01-25 18:13:00.120 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Check Box Demo')]
+[INFO ] 2021-01-25 18:13:00.250 [main] SeleniumActions - Clicking on element By.cssSelector: input[type='checkbox'][id='isAgeSelected']
+[ERROR] 2021-01-25 18:13:00.888 [main] Reports - ************************ Test Failed :checkBoxDemoPage
+[INFO ] 2021-01-25 18:13:00.889 [main] Reports - **************************Test Started :selectDropdown
+[INFO ] 2021-01-25 18:13:05.510 [main] Reports - ************************ Test Passed :selectDropdown
+[INFO ] 2021-01-25 18:13:06.685 [main] BrowserSetup - **********************Browser Closed*********************************

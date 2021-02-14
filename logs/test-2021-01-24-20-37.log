@@ -1,0 +1,19 @@
+[INFO ] 2021-01-24 20:37:58.569 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-24 20:38:02.824 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-24 20:38:02.843 [main] Reports - **************************Test Started :welcome
+[INFO ] 2021-01-24 20:38:06.260 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-24 20:38:06.933 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-24 20:38:07.000 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-24 20:38:07.001 [main] Reports - ************************ Test Passed :welcome
+[INFO ] 2021-01-24 20:38:07.001 [main] Reports - **************************Test Started :practiceDashboard
+[INFO ] 2021-01-24 20:38:07.001 [main] Reports - ************************ Test Passed :practiceDashboard
+[INFO ] 2021-01-24 20:38:07.008 [main] Reports - **************************Test Started :checkBoxDemoPage
+[INFO ] 2021-01-24 20:38:08.071 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Check Box Demo')]
+[INFO ] 2021-01-24 20:38:08.171 [main] SeleniumActions - Clicking on element By.cssSelector: input[type='checkbox'][id='isAgeSelected']
+[INFO ] 2021-01-24 20:38:08.333 [main] SeleniumActions - Clicking on element By.cssSelector: input[value='Check All']
+[ERROR] 2021-01-24 20:38:08.835 [main] Reports - ************************ Test Failed :checkBoxDemoPage
+[INFO ] 2021-01-24 20:38:08.836 [main] Reports - **************************Test Started :simple_form_demo_page
+[ERROR] 2021-01-24 20:38:12.245 [main] Reports - ************************ Test Failed :simple_form_demo_page
+[INFO ] 2021-01-24 20:38:12.247 [main] Reports - **************************Test Started :perform_addition
+[WARN ] 2021-01-24 20:38:12.247 [main] Reports - ************************ Test Skipped :perform_addition
+[INFO ] 2021-01-24 20:38:13.382 [main] BrowserSetup - **********************Browser Closed*********************************

@@ -1,0 +1,20 @@
+[INFO ] 2021-01-25 20:16:00.913 [main] Reports - **************************Test Started :welcome
+[ERROR] 2021-01-25 20:16:00.931 [main] Reports - ************************ Test Failed :welcome
+[INFO ] 2021-01-25 20:16:01.169 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-25 20:16:05.430 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-25 20:16:13.349 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 20:16:13.530 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-25 20:16:13.597 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-25 20:16:13.598 [main] Reports - **************************Test Started :simple_form_demo_page
+[INFO ] 2021-01-25 20:16:15.057 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Simple Form Demo')]
+[INFO ] 2021-01-25 20:16:15.058 [main] Reports - ************************ Test Passed :simple_form_demo_page
+[INFO ] 2021-01-25 20:16:15.059 [main] Reports - **************************Test Started :perform_addition
+[INFO ] 2021-01-25 20:16:15.146 [main] SeleniumActions - Entered 4 in By.cssSelector: input#sum1.form-control
+[INFO ] 2021-01-25 20:16:15.220 [main] SeleniumActions - Entered 5 in By.cssSelector: input#sum2.form-control
+[INFO ] 2021-01-25 20:16:15.274 [main] SeleniumActions - Clicking on element By.xpath: //button[contains(text(),'Get Total')]
+[INFO ] 2021-01-25 20:16:15.297 [main] Reports - ************************ Test Passed :perform_addition
+[INFO ] 2021-01-25 20:16:16.448 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-01-25 20:16:16.449 [main] Reports - **************************Test Started :checkBoxDemoPage
+[INFO ] 2021-01-25 20:16:16.452 [main] Reports - ************************ Test Passed :checkBoxDemoPage
+[INFO ] 2021-01-25 20:16:16.453 [main] Reports - **************************Test Started :selectDropdown
+[INFO ] 2021-01-25 20:16:16.454 [main] Reports - ************************ Test Passed :selectDropdown

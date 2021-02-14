@@ -3,8 +3,14 @@ package com.application.utilities.seleniumutils;
 import com.application.utilities.synchronization.Waits;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import javax.swing.*;
+import java.util.Iterator;
+import java.util.Set;
 
 public class SeleniumActions extends Waits {
 
@@ -31,6 +37,58 @@ public class SeleniumActions extends Waits {
     public void click(By locator) {
         driver.findElement(locator).click();
         logger.info("Clicking on element " + locator);
+    }
+
+    public WebElement selectDropDownValue(By locator)
+    {
+        logger.info("selecting element from dropdown"+locator);
+        return driver.findElement(locator);
+    }
+
+    public Alert handleAlerts()
+    {
+        logger.info("actions on alert");
+        Alert alert=new Alert() {
+            public void dismiss() {
+                driver.switchTo().alert().dismiss();
+            }
+
+            public void accept() {
+                driver.switchTo().alert().accept();
+            }
+
+            public String getText() {
+                return driver.switchTo().alert().getText();
+            }
+
+            public void sendKeys(String s) {
+                driver.switchTo().alert().sendKeys(s);
+            }
+        };
+        return alert;
+    }
+
+    //handling multiple windows
+    public void handle_windows()
+    {
+        String main_window=driver.getWindowHandle();
+
+        Set<String> windowhandles=driver.getWindowHandles();
+        Iterator<String> i=windowhandles.iterator();
+        while(i.hasNext())
+        {
+            String child_window=i.next();
+
+            if(!main_window.equalsIgnoreCase(child_window))
+            {
+                driver.switchTo().window(child_window);
+                System.out.println(driver.switchTo().window(child_window).getTitle());
+                driver.close();
+            }
+        }
+
+        driver.switchTo().window(main_window);
+
     }
 
     public String getText(By locator) {

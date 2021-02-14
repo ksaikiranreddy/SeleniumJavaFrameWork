@@ -1,0 +1,18 @@
+[INFO ] 2021-01-24 19:51:32.790 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-24 19:51:37.052 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-24 19:51:37.070 [main] Reports - **************************Test Started :welcome
+[INFO ] 2021-01-24 19:51:40.687 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-24 19:51:41.565 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-24 19:51:41.637 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-24 19:51:41.639 [main] Reports - ************************ Test Passed :welcome
+[INFO ] 2021-01-24 19:51:41.648 [main] Reports - **************************Test Started :checkBoxDemoPage
+[ERROR] 2021-01-24 19:51:42.389 [main] Reports - ************************ Test Failed :checkBoxDemoPage
+[INFO ] 2021-01-24 19:51:42.391 [main] Reports - **************************Test Started :simple_form_demo_page
+[INFO ] 2021-01-24 19:51:43.233 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Simple Form Demo')]
+[INFO ] 2021-01-24 19:51:43.234 [main] Reports - ************************ Test Passed :simple_form_demo_page
+[INFO ] 2021-01-24 19:51:43.238 [main] Reports - **************************Test Started :perform_addition
+[INFO ] 2021-01-24 19:51:43.431 [main] SeleniumActions - Entered 4 in By.cssSelector: input#sum1.form-control
+[INFO ] 2021-01-24 19:51:43.508 [main] SeleniumActions - Entered 5 in By.cssSelector: input#sum2.form-control
+[INFO ] 2021-01-24 19:51:43.555 [main] SeleniumActions - Clicking on element By.xpath: //button[contains(text(),'Get Total')]
+[INFO ] 2021-01-24 19:51:43.589 [main] Reports - ************************ Test Passed :perform_addition
+[INFO ] 2021-01-24 19:51:44.715 [main] BrowserSetup - **********************Browser Closed*********************************

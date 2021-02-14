@@ -3,9 +3,16 @@
     <listeners>
         <listener class-name="com.application.listeners.Reports"/>
     </listeners>
-    <test name = "Homepage Tests">
+    <test name = "welcome page Test">
         <classes>
-            <class name="com.application.testsuites.SmokeSuite"/>
+            <class name="com.application.testsuites.SimpleFormDemoPage"/>
+            <class name="com.application.testsuites.CheckBoxDemoPage">
+                <methods>
+                    <exclude name=".*"></exclude>
+                </methods>
+            </class>
+            <class name="com.application.testsuites.SelectDropdownPage"/>
+            <class name="com.application.testsuites.JavaScriptsAlertsPage"/>
         </classes>
     </test>
 </suite>

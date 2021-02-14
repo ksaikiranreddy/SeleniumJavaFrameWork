@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser">
-              <span class="suite-name border-passed">Running Smoke Suite on Windows 10 - Chrome Browser</span>
+              <span class="suite-name border-failed">Running Smoke Suite on Windows 10 - Chrome Browser</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Running_Smoke_Suite_on_Windows_10___Chrome_Browser">
-                    <span>F:\Practice\Frameworks\SeleniumJavaFramework01\testNGSuites\SmokeSuite.xml</span>
+                    <span>C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\testNGSuites\SmokeSuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" class="hide-methods failed suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser"> (hide)</a> <!-- hide-methods failed suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser -->
+                      <a href="#" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" class="show-methods failed suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser"> (show)</a> <!-- show-methods failed suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser -->
+                    </span>
+                    <div class="method-list-content failed suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" title="com.application.testsuites.SimpleFormDemoPage" hash-for-method="perform_addition">perform_addition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +116,32 @@
                     <div class="method-list-content passed suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" title="com.application.testsuites.SmokeSuite" hash-for-method="login(test, Test@123)">login(test, Test@123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" title="com.application.testsuites.JavaScriptsAlertsPage" hash-for-method="navigate_JavascriptAlertPage">navigate_JavascriptAlertPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" title="com.application.testsuites.SelectDropdownPage" hash-for-method="selectDropdown">selectDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" title="com.application.testsuites.SimpleFormDemoPage" hash-for-method="simple_form_demo_page">simple_form_demo_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" title="com.application.testsuites.JavaScriptsAlertsPage" hash-for-method="verifyAlertBox">verifyAlertBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" title="com.application.testsuites.JavaScriptsAlertsPage" hash-for-method="verifyConfirmBox">verifyConfirmBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" title="com.application.testsuites.JavaScriptsAlertsPage" hash-for-method="verifyPromptBox">verifyPromptBox</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser -->
@@ -117,18 +156,97 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" class="panel Running_Smoke_Suite_on_Windows_10___Chrome_Browser">
-          <div class="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser-class-passed">
+          <div class="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.application.testsuites.SmokeSuite</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.application.testsuites.SimpleFormDemoPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login(test, Test@123)">
-                  </a> <!-- login(test, Test@123) -->
-                  <span class="method-name">login</span>
-                  <span class="parameters">(test, Test@123)</span>
+                  <a name="perform_addition">
+                  </a> <!-- perform_addition -->
+                  <span class="method-name">perform_addition</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN01N02824&apos;, ip: &apos;192.168.43.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
+	at com.application.utilities.synchronization.Waits.implicitWaitForSecs(Waits.java:24)
+	at com.application.pages.methods.SimpleFormDemoMethods.addition_operation(SimpleFormDemoMethods.java:20)
+	at com.application.testsuites.SimpleFormDemoPage.perform_addition(SimpleFormDemoPage.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser-class-failed -->
+          <div class="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.application.testsuites.SimpleFormDemoPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="simple_form_demo_page">
+                  </a> <!-- simple_form_demo_page -->
+                  <span class="method-name">simple_form_demo_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser-class-passed -->
+          <div class="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.application.testsuites.JavaScriptsAlertsPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate_JavascriptAlertPage">
+                  </a> <!-- navigate_JavascriptAlertPage -->
+                  <span class="method-name">navigate_JavascriptAlertPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlertBox">
+                  </a> <!-- verifyAlertBox -->
+                  <span class="method-name">verifyAlertBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyConfirmBox">
+                  </a> <!-- verifyConfirmBox -->
+                  <span class="method-name">verifyConfirmBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPromptBox">
+                  </a> <!-- verifyPromptBox -->
+                  <span class="method-name">verifyPromptBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser-class-passed -->
+          <div class="suite-Running_Smoke_Suite_on_Windows_10___Chrome_Browser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.application.testsuites.SelectDropdownPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDropdown">
+                  </a> <!-- selectDropdown -->
+                  <span class="method-name">selectDropdown</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +254,7 @@
         </div> <!-- panel Running_Smoke_Suite_on_Windows_10___Chrome_Browser -->
         <div panel-name="test-xml-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\Practice\Frameworks\SeleniumJavaFramework01\testNGSuites\SmokeSuite.xml</span>
+            <span class="header-content">C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\testNGSuites\SmokeSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,11 +264,18 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.application.listeners.Reports&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Homepage Tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;welcome page Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.application.testsuites.SmokeSuite&quot;/&gt;
+      &lt;class name=&quot;com.application.testsuites.SimpleFormDemoPage&quot;/&gt;
+      &lt;class name=&quot;com.application.testsuites.CheckBoxDemoPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.application.testsuites.CheckBoxDemoPage --&gt;
+      &lt;class name=&quot;com.application.testsuites.SelectDropdownPage&quot;/&gt;
+      &lt;class name=&quot;com.application.testsuites.JavaScriptsAlertsPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Homepage Tests --&gt;
+  &lt;/test&gt; &lt;!-- welcome page Test --&gt;
 &lt;/suite&gt; &lt;!-- Running Smoke Suite on Windows 10 - Chrome Browser --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -162,7 +287,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Homepage Tests (1 class)</span>
+                <span class="test-name">welcome page Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,16 +313,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'com.application.testsuites.SmokeSuite')
-data.setCell(0, 3, 7403);
+data.setCell(0, 1, 'selectDropdown')
+data.setCell(0, 2, 'com.application.testsuites.SelectDropdownPage')
+data.setCell(0, 3, 2684);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'simple_form_demo_page')
+data.setCell(1, 2, 'com.application.testsuites.SimpleFormDemoPage')
+data.setCell(1, 3, 1241);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'navigate_JavascriptAlertPage')
+data.setCell(2, 2, 'com.application.testsuites.JavaScriptsAlertsPage')
+data.setCell(2, 3, 910);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyPromptBox')
+data.setCell(3, 2, 'com.application.testsuites.JavaScriptsAlertsPage')
+data.setCell(3, 3, 181);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyConfirmBox')
+data.setCell(4, 2, 'com.application.testsuites.JavaScriptsAlertsPage')
+data.setCell(4, 3, 86);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAlertBox')
+data.setCell(5, 2, 'com.application.testsuites.JavaScriptsAlertsPage')
+data.setCell(5, 3, 73);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'perform_addition')
+data.setCell(6, 2, 'com.application.testsuites.SimpleFormDemoPage')
+data.setCell(6, 3, 8);
 window.suiteTableData['Running_Smoke_Suite_on_Windows_10___Chrome_Browser']= { tableData: data, tableDiv: 'times-div-Running_Smoke_Suite_on_Windows_10___Chrome_Browser'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Running_Smoke_Suite_on_Windows_10___Chrome_Browser">
               </div> <!-- times-div-Running_Smoke_Suite_on_Windows_10___Chrome_Browser -->
             </div> <!-- times-div -->
@@ -212,9 +361,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.application.testsuites.CheckBoxDemoPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkBoxDemoPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Running_Smoke_Suite_on_Windows_10___Chrome_Browser" class="panel">
@@ -223,19 +379,70 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.application.testsuites.SmokeSuite</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initiateBrowser</span>
+              <div class="chronological-class-name">com.application.testsuites.SimpleFormDemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">welcome</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">login(test, Test@123)</span>
-                <span class="method-start">7787 ms</span>
+                <span class="method-name">simple_form_demo_page</span>
+                <span class="method-start">7815 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.application.testsuites.SelectDropdownPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">welcome</span>
+                <span class="method-start">9070 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">selectDropdown</span>
+                <span class="method-start">15787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">15201 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">18473 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.application.testsuites.SimpleFormDemoPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">perform_addition</span>
+                <span class="method-start">19641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">19663 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.application.testsuites.JavaScriptsAlertsPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">welcome</span>
+                <span class="method-start">19663 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">navigate_JavascriptAlertPage</span>
+                <span class="method-start">24342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAlertBox</span>
+                <span class="method-start">25255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyConfirmBox</span>
+                <span class="method-start">25329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPromptBox</span>
+                <span class="method-start">25416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">25598 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

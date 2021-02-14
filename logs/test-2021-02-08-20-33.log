@@ -1,0 +1,8 @@
+[INFO ] 2021-02-08 20:33:33.987 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-02-08 20:33:36.306 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-02-08 20:33:47.069 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-02-08 20:33:47.302 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-02-08 20:33:47.372 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-02-08 20:33:47.560 [main] SeleniumActions - Clicking on element By.xpath: //a[@class='dropdown-toggle' and contains(text(),'Table')]
+[INFO ] 2021-02-08 20:33:48.535 [main] SeleniumActions - Clicking on element By.xpath: //a[contains(text(),'Table')]/following::ul/li/a[contains(text(),'Table Pagination')]
+[INFO ] 2021-02-08 20:33:49.826 [main] BrowserSetup - **********************Browser Closed*********************************

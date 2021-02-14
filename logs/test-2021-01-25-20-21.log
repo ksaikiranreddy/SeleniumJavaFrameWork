@@ -1,0 +1,18 @@
+[INFO ] 2021-01-25 20:21:20.131 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-25 20:21:24.358 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-25 20:21:32.682 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 20:21:32.925 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-25 20:21:33.016 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-25 20:21:33.037 [main] Reports - **************************Test Started :simple_form_demo_page
+[INFO ] 2021-01-25 20:21:34.699 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Simple Form Demo')]
+[INFO ] 2021-01-25 20:21:34.709 [main] Reports - ************************ Test Passed :simple_form_demo_page
+[INFO ] 2021-01-25 20:21:34.718 [main] Reports - **************************Test Started :perform_addition
+[INFO ] 2021-01-25 20:21:34.959 [main] SeleniumActions - Entered 4 in By.cssSelector: input#sum1.form-control
+[INFO ] 2021-01-25 20:21:35.172 [main] SeleniumActions - Entered 5 in By.cssSelector: input#sum2.form-control
+[INFO ] 2021-01-25 20:21:35.235 [main] SeleniumActions - Clicking on element By.xpath: //button[contains(text(),'Get Total')]
+[INFO ] 2021-01-25 20:21:35.267 [main] Reports - ************************ Test Passed :perform_addition
+[INFO ] 2021-01-25 20:21:36.401 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-01-25 20:21:36.402 [main] Reports - **************************Test Started :checkBoxDemoPage
+[INFO ] 2021-01-25 20:21:36.405 [main] Reports - ************************ Test Passed :checkBoxDemoPage
+[INFO ] 2021-01-25 20:21:36.405 [main] Reports - **************************Test Started :selectDropdown
+[INFO ] 2021-01-25 20:21:36.406 [main] Reports - ************************ Test Passed :selectDropdown

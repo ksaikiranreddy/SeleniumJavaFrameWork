@@ -1,0 +1,10 @@
+[INFO ] 2021-02-10 12:24:51.604 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-02-10 12:24:59.085 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-02-10 12:25:06.212 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-02-10 12:25:06.756 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-02-10 12:25:06.867 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-02-10 12:25:07.131 [main] SeleniumActions - Clicking on element By.xpath: //a[@class='dropdown-toggle' and contains(text(),'Table')]
+[INFO ] 2021-02-10 12:25:09.029 [main] SeleniumActions - Clicking on element By.xpath: //a[text()='Table Sort & Search']
+[INFO ] 2021-02-10 12:25:13.229 [main] SeleniumActions - Entered New York in By.xpath: //input[@type='search']
+[INFO ] 2021-02-10 12:25:13.328 [main] SeleniumActions - Clicking on element By.xpath: //table/thead/tr/th[text()='Age']
+[INFO ] 2021-02-10 12:25:14.843 [main] BrowserSetup - **********************Browser Closed*********************************

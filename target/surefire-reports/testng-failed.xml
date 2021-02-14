@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Running Smoke Suite on Windows 10 - Chrome Browser]">
+  <listeners>
+    <listener class-name="com.application.listeners.Reports"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="welcome page Test(failed)">
+    <classes>
+      <class name="com.application.testsuites.SimpleFormDemoPage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="welcome"/>
+          <include name="perform_addition"/>
+          <include name="simple_form_demo_page"/>
+        </methods>
+      </class> <!-- com.application.testsuites.SimpleFormDemoPage -->
+    </classes>
+  </test> <!-- welcome page Test(failed) -->
+</suite> <!-- Failed suite [Running Smoke Suite on Windows 10 - Chrome Browser] -->

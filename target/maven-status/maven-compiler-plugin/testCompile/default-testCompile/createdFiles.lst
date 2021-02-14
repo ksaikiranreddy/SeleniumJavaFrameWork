@@ -1,4 +1,8 @@
-com\application\testsuites\RegressionSuite.class
+com\application\testsuites\JavaScriptsAlertsPage.class
+com\application\testsuites\SelectDropdownPage.class
+com\application\testsuites\TableHandlingPage.class
+com\application\testsuites\CheckBoxDemoPage.class
 com\application\testsuites\SmokeSuite.class
-com\application\testsuites\SanitySuite.class
+com\application\testsuites\SimpleFormDemoPage.class
+com\application\testsuites\WindowPopupPage.class
 com\application\dataproviders\SmokeSuiteData.class

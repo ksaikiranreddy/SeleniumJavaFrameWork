@@ -1,4 +1,8 @@
-F:\Practice\Frameworks\SeleniumJavaFramework01\src\test\java\com\application\testsuites\SanitySuite.java
-F:\Practice\Frameworks\SeleniumJavaFramework01\src\test\java\com\application\testsuites\RegressionSuite.java
-F:\Practice\Frameworks\SeleniumJavaFramework01\src\test\java\com\application\dataproviders\SmokeSuiteData.java
-F:\Practice\Frameworks\SeleniumJavaFramework01\src\test\java\com\application\testsuites\SmokeSuite.java
+C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\src\test\java\com\application\dataproviders\SmokeSuiteData.java
+C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\src\test\java\com\application\testsuites\SelectDropdownPage.java
+C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\src\test\java\com\application\testsuites\JavaScriptsAlertsPage.java
+C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\src\test\java\com\application\testsuites\TableHandlingPage.java
+C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\src\test\java\com\application\testsuites\SmokeSuite.java
+C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\src\test\java\com\application\testsuites\CheckBoxDemoPage.java
+C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\src\test\java\com\application\testsuites\SimpleFormDemoPage.java
+C:\Users\saikiran.kudumula\IdeaProjects\SeleniumJavaFramework\src\test\java\com\application\testsuites\WindowPopupPage.java

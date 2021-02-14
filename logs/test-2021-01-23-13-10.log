@@ -1,0 +1,6 @@
+[INFO ] 2021-01-23 13:10:15.469 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-23 13:10:20.762 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-23 13:10:20.784 [main] Reports - **************************Test Started :title
+[INFO ] 2021-01-23 13:10:23.395 [main] SeleniumActions - Navigated to :https://demoqa.com/login
+[ERROR] 2021-01-23 13:10:23.897 [main] Reports - ************************ Test Failed :title
+[INFO ] 2021-01-23 13:10:25.039 [main] BrowserSetup - **********************Browser Closed*********************************

@@ -1,0 +1,26 @@
+[INFO ] 2021-01-25 19:49:30.292 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-25 19:49:34.570 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-25 19:49:34.585 [main] Reports - **************************Test Started :welcome
+[INFO ] 2021-01-25 19:49:43.584 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 19:49:43.842 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-25 19:49:43.907 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-25 19:49:43.910 [main] Reports - ************************ Test Passed :welcome
+[INFO ] 2021-01-25 19:49:45.065 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-01-25 19:49:45.260 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-25 19:49:48.575 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-25 19:49:55.398 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 19:49:55.612 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-25 19:49:55.706 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-25 19:49:55.707 [main] Reports - **************************Test Started :simple_form_demo_page
+[INFO ] 2021-01-25 19:49:57.457 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Simple Form Demo')]
+[INFO ] 2021-01-25 19:49:57.458 [main] Reports - ************************ Test Passed :simple_form_demo_page
+[INFO ] 2021-01-25 19:49:58.089 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 19:50:03.437 [main] Reports - **************************Test Started :perform_addition
+[WARN ] 2021-01-25 19:50:03.437 [main] Reports - ************************ Test Skipped :perform_addition
+[INFO ] 2021-01-25 19:50:04.048 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 19:50:09.332 [main] Reports - **************************Test Started :checkBoxDemoPage
+[WARN ] 2021-01-25 19:50:09.333 [main] Reports - ************************ Test Skipped :checkBoxDemoPage
+[INFO ] 2021-01-25 19:50:09.983 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 19:50:15.314 [main] Reports - **************************Test Started :selectDropdown
+[WARN ] 2021-01-25 19:50:15.315 [main] Reports - ************************ Test Skipped :selectDropdown
+[INFO ] 2021-01-25 19:50:16.452 [main] BrowserSetup - **********************Browser Closed*********************************

@@ -7,8 +7,6 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 
 import static com.application.utilities.commons.CommonVariables.configFilePath;
 
@@ -18,11 +16,11 @@ public class BrowserSetup {
     ReadProperties properties;
     Logger logger = LogManager.getLogger("BrowserSetup");
 
+
     public WebDriver getDriver() {
         return driver;
     }
 
-    @BeforeTest
     public WebDriver initiateBrowser() {
         properties = new ReadProperties(configFilePath);
         String browser = properties.getProperty("browser");
@@ -41,8 +39,7 @@ public class BrowserSetup {
         return driver;
     }
 
-    @AfterTest
-    public void closeBrowser() {
+    public void quitBrowser() {
         if (driver != null) {
             driver.quit();
         }

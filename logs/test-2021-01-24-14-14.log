@@ -1,0 +1,7 @@
+[INFO ] 2021-01-24 14:14:59.607 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-24 14:15:03.671 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-24 14:15:03.686 [main] Reports - **************************Test Started :title
+[INFO ] 2021-01-24 14:15:06.659 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-24 14:15:07.323 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-24 14:15:07.332 [main] Reports - ************************ Test Passed :title
+[INFO ] 2021-01-24 14:15:08.445 [main] BrowserSetup - **********************Browser Closed*********************************

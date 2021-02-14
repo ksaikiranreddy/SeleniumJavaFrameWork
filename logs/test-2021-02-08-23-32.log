@@ -1,0 +1,15 @@
+[INFO ] 2021-02-08 23:32:26.612 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-02-08 23:32:28.858 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-02-08 23:32:31.472 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-02-08 23:32:32.717 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-02-08 23:32:32.788 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-02-08 23:32:32.948 [main] SeleniumActions - Clicking on element By.xpath: //a[@class='dropdown-toggle' and contains(text(),'Table')]
+[INFO ] 2021-02-08 23:32:33.248 [main] SeleniumActions - Clicking on element By.xpath: //a[contains(text(),'Table')]/following::ul/li/a[contains(text(),'Table Pagination')]
+[INFO ] 2021-02-08 23:32:33.441 [main] SeleniumActions - Clicking on element By.xpath: //a[@class='dropdown-toggle' and contains(text(),'Table')]
+[INFO ] 2021-02-08 23:32:33.788 [main] SeleniumActions - Clicking on element By.xpath: //a[contains(text(),'Table Data Search')]
+[INFO ] 2021-02-08 23:32:33.899 [main] SeleniumActions - Entered Bug in By.cssSelector: #task-table-filter
+[INFO ] 2021-02-08 23:32:34.246 [main] SeleniumActions - Clicking on element By.xpath: //a[@class='dropdown-toggle' and contains(text(),'Table')]
+[INFO ] 2021-02-08 23:32:35.026 [main] SeleniumActions - Clicking on element By.xpath: //a[text()='Table Sort & Search']
+[INFO ] 2021-02-08 23:32:35.140 [main] SeleniumActions - Entered New York in By.xpath: //input[@type='search']
+[INFO ] 2021-02-08 23:32:35.178 [main] SeleniumActions - Clicking on element By.xpath: //table/thead/tr/th[text()='Age']
+[INFO ] 2021-02-08 23:32:36.537 [main] BrowserSetup - **********************Browser Closed*********************************

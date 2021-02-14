@@ -1,0 +1,9 @@
+[INFO ] 2021-01-28 15:21:51.306 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-28 15:21:55.486 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-28 15:22:02.638 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-28 15:22:02.976 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-28 15:22:03.083 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-28 15:22:04.691 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Select Dropdown List')]
+[INFO ] 2021-01-28 15:22:04.697 [main] SeleniumActions - selecting element from dropdownBy.cssSelector: select#select-demo
+[INFO ] 2021-01-28 15:22:06.212 [main] SeleniumActions - Clicking on element By.cssSelector: #printAll
+[INFO ] 2021-01-28 15:22:07.468 [main] BrowserSetup - **********************Browser Closed*********************************

@@ -1,0 +1,6 @@
+[INFO ] 2021-01-24 13:47:30.976 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-24 13:47:35.205 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-24 13:47:35.253 [main] Reports - **************************Test Started :title
+[INFO ] 2021-01-24 13:47:38.113 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[ERROR] 2021-01-24 13:47:39.073 [main] Reports - ************************ Test Failed :title
+[INFO ] 2021-01-24 13:47:40.212 [main] BrowserSetup - **********************Browser Closed*********************************

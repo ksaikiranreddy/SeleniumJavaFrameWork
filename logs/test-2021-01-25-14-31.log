@@ -1,0 +1,20 @@
+[INFO ] 2021-01-25 14:31:33.258 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-25 14:31:38.739 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-25 14:31:38.772 [main] Reports - **************************Test Started :welcome
+[INFO ] 2021-01-25 14:31:46.895 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 14:31:47.042 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-25 14:31:47.093 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-25 14:31:47.094 [main] Reports - ************************ Test Passed :welcome
+[INFO ] 2021-01-25 14:31:47.101 [main] Reports - **************************Test Started :checkBoxDemoPage
+[INFO ] 2021-01-25 14:31:47.103 [main] Reports - ************************ Test Passed :checkBoxDemoPage
+[INFO ] 2021-01-25 14:31:47.104 [main] Reports - **************************Test Started :selectDropdown
+[INFO ] 2021-01-25 14:31:47.105 [main] Reports - ************************ Test Passed :selectDropdown
+[INFO ] 2021-01-25 14:31:47.106 [main] Reports - **************************Test Started :simple_form_demo_page
+[INFO ] 2021-01-25 14:31:48.623 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Simple Form Demo')]
+[INFO ] 2021-01-25 14:31:48.623 [main] Reports - ************************ Test Passed :simple_form_demo_page
+[INFO ] 2021-01-25 14:31:48.624 [main] Reports - **************************Test Started :perform_addition
+[INFO ] 2021-01-25 14:31:48.691 [main] SeleniumActions - Entered 4 in By.cssSelector: input#sum1.form-control
+[INFO ] 2021-01-25 14:31:48.745 [main] SeleniumActions - Entered 5 in By.cssSelector: input#sum2.form-control
+[INFO ] 2021-01-25 14:31:48.789 [main] SeleniumActions - Clicking on element By.xpath: //button[contains(text(),'Get Total')]
+[INFO ] 2021-01-25 14:31:48.809 [main] Reports - ************************ Test Passed :perform_addition
+[INFO ] 2021-01-25 14:31:49.914 [main] BrowserSetup - **********************Browser Closed*********************************

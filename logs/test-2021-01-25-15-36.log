@@ -1,0 +1,16 @@
+[INFO ] 2021-01-25 15:36:02.098 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-01-25 15:36:06.198 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-01-25 15:36:06.229 [main] Reports - **************************Test Started :welcome
+[INFO ] 2021-01-25 15:36:08.776 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-01-25 15:36:09.443 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-01-25 15:36:09.499 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-01-25 15:36:09.501 [main] Reports - ************************ Test Passed :welcome
+[INFO ] 2021-01-25 15:36:09.508 [main] Reports - **************************Test Started :simple_form_demo_page
+[INFO ] 2021-01-25 15:36:10.742 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Simple Form Demo')]
+[INFO ] 2021-01-25 15:36:10.743 [main] Reports - ************************ Test Passed :simple_form_demo_page
+[INFO ] 2021-01-25 15:36:10.744 [main] Reports - **************************Test Started :perform_addition
+[INFO ] 2021-01-25 15:36:10.816 [main] SeleniumActions - Entered 4 in By.cssSelector: input#sum1.form-control
+[INFO ] 2021-01-25 15:36:10.879 [main] SeleniumActions - Entered 5 in By.cssSelector: input#sum2.form-control
+[INFO ] 2021-01-25 15:36:10.923 [main] SeleniumActions - Clicking on element By.xpath: //button[contains(text(),'Get Total')]
+[INFO ] 2021-01-25 15:36:10.946 [main] Reports - ************************ Test Passed :perform_addition
+[INFO ] 2021-01-25 15:36:12.087 [main] BrowserSetup - **********************Browser Closed*********************************

@@ -1,0 +1,14 @@
+[INFO ] 2021-02-04 18:05:46.270 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-02-04 18:05:48.681 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-02-04 18:05:55.990 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-02-04 18:05:56.230 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-02-04 18:05:56.317 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-02-04 18:05:57.589 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Javascript Alerts')]
+[INFO ] 2021-02-04 18:05:57.649 [main] SeleniumActions - Clicking on element By.cssSelector: button.btn.btn-default[onclick="myAlertFunction()"]
+[INFO ] 2021-02-04 18:05:57.768 [main] SeleniumActions - Clicking on element By.cssSelector: button.btn.btn-default.btn-lg[onclick="myConfirmFunction()"]
+[INFO ] 2021-02-04 18:05:57.769 [main] SeleniumActions - actions on alert
+[INFO ] 2021-02-04 18:05:57.776 [main] SeleniumActions - actions on alert
+[INFO ] 2021-02-04 18:05:57.902 [main] SeleniumActions - Clicking on element By.cssSelector: button.btn.btn-default.btn-lg[onclick="myPromptFunction()"]
+[INFO ] 2021-02-04 18:05:57.902 [main] SeleniumActions - actions on alert
+[INFO ] 2021-02-04 18:05:57.911 [main] SeleniumActions - actions on alert
+[INFO ] 2021-02-04 18:05:59.165 [main] BrowserSetup - **********************Browser Closed*********************************
