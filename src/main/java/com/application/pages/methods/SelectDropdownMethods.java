@@ -9,7 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import java.util.Iterator;
 import java.util.List;
 
 public class SelectDropdownMethods extends SeleniumActions implements SelectDropdownListLocators {
