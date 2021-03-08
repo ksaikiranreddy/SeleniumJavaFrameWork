@@ -1,14 +1,14 @@
 package com.application.utilities.seleniumutils;
 
 import com.application.utilities.synchronization.Waits;
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
-import javax.swing.*;
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -93,6 +93,15 @@ public class SeleniumActions extends Waits {
 
     public String getText(By locator) {
         return driver.findElement(locator).getText();
+    }
+
+    public void getScreenshot(String methodName) {
+        try {
+            File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(file, new File("./screenshots/test-" + methodName + ".png"));
+        } catch (Exception e) {
+            e.getMessage();
+        }
     }
 
 }

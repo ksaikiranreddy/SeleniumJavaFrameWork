@@ -2,6 +2,7 @@ package com.application.pages.methods;
 
 import com.application.pages.locators.SimpleFormDemoLocators;
 import com.application.utilities.seleniumutils.SeleniumActions;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="1" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Running Smoke Suite on Windows 10 - Chrome Browser" duration-ms="26967" started-at="2021-02-14T14:14:52 IST" finished-at="2021-02-14T14:15:19 IST">
+  <suite name="Running Smoke Suite on Windows 10 - Chrome Browser" duration-ms="24090" started-at="2021-02-18T10:26:23 IST" finished-at="2021-02-18T10:26:47 IST">
     <groups>
     </groups>
-    <test name="welcome page Test" duration-ms="26967" started-at="2021-02-14T14:14:52 IST" finished-at="2021-02-14T14:15:19 IST">
+    <test name="welcome page Test" duration-ms="24090" started-at="2021-02-18T10:26:23 IST" finished-at="2021-02-18T10:26:47 IST">
       <class name="com.application.testsuites.SimpleFormDemoPage">
-        <test-method status="PASS" signature="welcome()[pri:0, instance:com.application.testsuites.SimpleFormDemoPage@bccb269]" name="welcome" is-config="true" duration-ms="7802" started-at="2021-02-14T14:14:52 IST" finished-at="2021-02-14T14:15:00 IST">
+        <test-method status="PASS" signature="welcome()[pri:0, instance:com.application.testsuites.SimpleFormDemoPage@bccb269]" name="welcome" is-config="true" duration-ms="6253" started-at="2021-02-18T10:26:23 IST" finished-at="2021-02-18T10:26:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcome -->
-        <test-method status="PASS" signature="simple_form_demo_page()[pri:0, instance:com.application.testsuites.SimpleFormDemoPage@bccb269]" name="simple_form_demo_page" duration-ms="1241" started-at="2021-02-14T14:15:00 IST" finished-at="2021-02-14T14:15:01 IST">
+        <test-method status="PASS" signature="simple_form_demo_page()[pri:0, instance:com.application.testsuites.SimpleFormDemoPage@bccb269]" name="simple_form_demo_page" duration-ms="1345" started-at="2021-02-18T10:26:29 IST" finished-at="2021-02-18T10:26:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simple_form_demo_page -->
-        <test-method status="FAIL" signature="perform_addition()[pri:0, instance:com.application.testsuites.SimpleFormDemoPage@bccb269]" name="perform_addition" duration-ms="8" started-at="2021-02-14T14:15:12 IST" depends-on-methods="com.application.testsuites.SimpleFormDemoPage.simple_form_demo_page" finished-at="2021-02-14T14:15:12 IST">
+        <test-method status="FAIL" signature="perform_addition()[pri:0, instance:com.application.testsuites.SimpleFormDemoPage@bccb269]" name="perform_addition" duration-ms="5" started-at="2021-02-18T10:26:39 IST" depends-on-methods="com.application.testsuites.SimpleFormDemoPage.simple_form_demo_page" finished-at="2021-02-18T10:26:39 IST">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
@@ -73,47 +73,47 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- perform_addition -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.testsuites.SimpleFormDemoPage@bccb269]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-02-14T14:15:12 IST" finished-at="2021-02-14T14:15:12 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.testsuites.SimpleFormDemoPage@bccb269]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-02-18T10:26:39 IST" finished-at="2021-02-18T10:26:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.application.testsuites.SimpleFormDemoPage -->
       <class name="com.application.testsuites.SelectDropdownPage">
-        <test-method status="PASS" signature="welcome()[pri:0, instance:com.application.testsuites.SelectDropdownPage@609cd4d8]" name="welcome" is-config="true" duration-ms="6716" started-at="2021-02-14T14:15:01 IST" finished-at="2021-02-14T14:15:08 IST">
+        <test-method status="PASS" signature="welcome()[pri:0, instance:com.application.testsuites.SelectDropdownPage@609cd4d8]" name="welcome" is-config="true" duration-ms="5044" started-at="2021-02-18T10:26:31 IST" finished-at="2021-02-18T10:26:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcome -->
-        <test-method status="PASS" signature="selectDropdown()[pri:0, instance:com.application.testsuites.SelectDropdownPage@609cd4d8]" name="selectDropdown" duration-ms="2684" started-at="2021-02-14T14:15:08 IST" finished-at="2021-02-14T14:15:10 IST">
+        <test-method status="PASS" signature="selectDropdown()[pri:0, instance:com.application.testsuites.SelectDropdownPage@609cd4d8]" name="selectDropdown" duration-ms="2572" started-at="2021-02-18T10:26:36 IST" finished-at="2021-02-18T10:26:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDropdown -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.testsuites.SelectDropdownPage@609cd4d8]" name="closeBrowser" is-config="true" duration-ms="1165" started-at="2021-02-14T14:15:10 IST" finished-at="2021-02-14T14:15:12 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.testsuites.SelectDropdownPage@609cd4d8]" name="closeBrowser" is-config="true" duration-ms="729" started-at="2021-02-18T10:26:38 IST" finished-at="2021-02-18T10:26:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.application.testsuites.SelectDropdownPage -->
       <class name="com.application.testsuites.JavaScriptsAlertsPage">
-        <test-method status="PASS" signature="welcome()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="welcome" is-config="true" duration-ms="4679" started-at="2021-02-14T14:15:12 IST" finished-at="2021-02-14T14:15:16 IST">
+        <test-method status="PASS" signature="welcome()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="welcome" is-config="true" duration-ms="5460" started-at="2021-02-18T10:26:39 IST" finished-at="2021-02-18T10:26:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcome -->
-        <test-method status="PASS" signature="navigate_JavascriptAlertPage()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="navigate_JavascriptAlertPage" duration-ms="910" started-at="2021-02-14T14:15:16 IST" finished-at="2021-02-14T14:15:17 IST">
+        <test-method status="PASS" signature="navigate_JavascriptAlertPage()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="navigate_JavascriptAlertPage" duration-ms="984" started-at="2021-02-18T10:26:45 IST" finished-at="2021-02-18T10:26:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate_JavascriptAlertPage -->
-        <test-method status="PASS" signature="verifyAlertBox()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="verifyAlertBox" duration-ms="73" started-at="2021-02-14T14:15:17 IST" finished-at="2021-02-14T14:15:17 IST">
+        <test-method status="PASS" signature="verifyAlertBox()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="verifyAlertBox" duration-ms="83" started-at="2021-02-18T10:26:46 IST" finished-at="2021-02-18T10:26:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAlertBox -->
-        <test-method status="PASS" signature="verifyConfirmBox()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="verifyConfirmBox" duration-ms="86" started-at="2021-02-14T14:15:17 IST" finished-at="2021-02-14T14:15:17 IST">
+        <test-method status="PASS" signature="verifyConfirmBox()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="verifyConfirmBox" duration-ms="101" started-at="2021-02-18T10:26:46 IST" finished-at="2021-02-18T10:26:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyConfirmBox -->
-        <test-method status="PASS" signature="verifyPromptBox()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="verifyPromptBox" duration-ms="181" started-at="2021-02-14T14:15:17 IST" finished-at="2021-02-14T14:15:18 IST">
+        <test-method status="PASS" signature="verifyPromptBox()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="verifyPromptBox" duration-ms="260" started-at="2021-02-18T10:26:46 IST" finished-at="2021-02-18T10:26:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPromptBox -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="closeBrowser" is-config="true" duration-ms="1201" started-at="2021-02-14T14:15:18 IST" finished-at="2021-02-14T14:15:19 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.testsuites.JavaScriptsAlertsPage@17f7cd29]" name="closeBrowser" is-config="true" duration-ms="1124" started-at="2021-02-18T10:26:46 IST" finished-at="2021-02-18T10:26:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
