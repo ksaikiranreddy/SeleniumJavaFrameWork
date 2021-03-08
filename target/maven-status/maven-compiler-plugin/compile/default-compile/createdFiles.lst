@@ -5,6 +5,7 @@ com\application\pages\locators\SelectDropdownListLocators.class
 com\application\pages\locators\PracticeDashboardLocators.class
 com\application\utilities\filehandlingutils\ReadProperties.class
 com\application\pages\methods\HomePageMethods.class
+com\application\listeners\ExtentReportsMethod.class
 com\application\pages\locators\TableHandlingLocators.class
 com\application\pages\locators\WelcomePageLocators.class
 com\application\listeners\Reports.class

@@ -4,18 +4,18 @@ import com.application.utilities.seleniumutils.SeleniumActions;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import java.io.IOException;
+
 
 public class Reports extends SeleniumActions implements ITestListener {
 
     Logger logger = LogManager.getLogger("Reports");
-    ExtentSparkReporter reporter;
     ExtentReports extentReports=ExtentReportsMethod.onStart();
     ExtentTest test;
 
@@ -31,10 +31,15 @@ public class Reports extends SeleniumActions implements ITestListener {
 
 
     public void onTestFailure(ITestResult result) {
-        getScreenshot(result.getMethod().getMethodName());
         logger.error("************************ Test Failed :" + result.getName());
         test.log(Status.FAIL, result.getName() + "test failed");
         test.fail(result.getThrowable());
+
+        try {
+            test.addScreenCaptureFromPath(getScreenshot(result.getMethod().getMethodName()),result.getMethod().getMethodName());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 

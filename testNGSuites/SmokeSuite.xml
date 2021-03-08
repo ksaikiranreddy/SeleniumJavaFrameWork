@@ -11,8 +11,10 @@
                     <exclude name=".*"></exclude>
                 </methods>
             </class>
-            <class name="com.application.testsuites.SelectDropdownPage"/>
-            <class name="com.application.testsuites.JavaScriptsAlertsPage"/>
+            <class name="com.application.testsuites.SelectDropdownPage">
+            </class>
+            <class name="com.application.testsuites.JavaScriptsAlertsPage">
+            </class>
         </classes>
     </test>
 </suite>

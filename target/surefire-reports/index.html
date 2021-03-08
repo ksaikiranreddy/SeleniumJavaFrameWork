@@ -169,14 +169,14 @@
                   <span class="method-name">perform_addition</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;IN01N02824&apos;, ip: &apos;192.168.43.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+System info: host: &apos;IN01N02824&apos;, ip: &apos;10.100.6.78&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:780)
 	at com.application.utilities.synchronization.Waits.implicitWaitForSecs(Waits.java:24)
-	at com.application.pages.methods.SimpleFormDemoMethods.addition_operation(SimpleFormDemoMethods.java:20)
+	at com.application.pages.methods.SimpleFormDemoMethods.addition_operation(SimpleFormDemoMethods.java:21)
 	at com.application.testsuites.SimpleFormDemoPage.perform_addition(SimpleFormDemoPage.java:42)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
 ... Removed 31 stack frames
@@ -317,36 +317,36 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'selectDropdown')
 data.setCell(0, 2, 'com.application.testsuites.SelectDropdownPage')
-data.setCell(0, 3, 2572);
+data.setCell(0, 3, 8692);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'simple_form_demo_page')
 data.setCell(1, 2, 'com.application.testsuites.SimpleFormDemoPage')
-data.setCell(1, 3, 1345);
+data.setCell(1, 3, 2299);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'navigate_JavascriptAlertPage')
 data.setCell(2, 2, 'com.application.testsuites.JavaScriptsAlertsPage')
-data.setCell(2, 3, 984);
+data.setCell(2, 3, 1421);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyPromptBox')
 data.setCell(3, 2, 'com.application.testsuites.JavaScriptsAlertsPage')
-data.setCell(3, 3, 260);
+data.setCell(3, 3, 1088);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyConfirmBox')
 data.setCell(4, 2, 'com.application.testsuites.JavaScriptsAlertsPage')
-data.setCell(4, 3, 101);
+data.setCell(4, 3, 736);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyAlertBox')
 data.setCell(5, 2, 'com.application.testsuites.JavaScriptsAlertsPage')
-data.setCell(5, 3, 83);
+data.setCell(5, 3, 393);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'perform_addition')
 data.setCell(6, 2, 'com.application.testsuites.SimpleFormDemoPage')
-data.setCell(6, 3, 5);
+data.setCell(6, 3, 40);
 window.suiteTableData['Running_Smoke_Suite_on_Windows_10___Chrome_Browser']= { tableData: data, tableDiv: 'times-div-Running_Smoke_Suite_on_Windows_10___Chrome_Browser'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Running_Smoke_Suite_on_Windows_10___Chrome_Browser">
               </div> <!-- times-div-Running_Smoke_Suite_on_Windows_10___Chrome_Browser -->
             </div> <!-- times-div -->
@@ -386,22 +386,22 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">simple_form_demo_page</span>
-                <span class="method-start">6265 ms</span>
+                <span class="method-start">11903 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.application.testsuites.SelectDropdownPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">welcome</span>
-                <span class="method-start">7644 ms</span>
+                <span class="method-start">14217 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">selectDropdown</span>
-                <span class="method-start">12688 ms</span>
+                <span class="method-start">28363 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">15262 ms</span>
+                <span class="method-start">37057 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -410,38 +410,38 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">perform_addition</span>
-                <span class="method-start">15994 ms</span>
+                <span class="method-start">38337 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">16007 ms</span>
+                <span class="method-start">38481 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.application.testsuites.JavaScriptsAlertsPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">welcome</span>
-                <span class="method-start">16007 ms</span>
+                <span class="method-start">38488 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigate_JavascriptAlertPage</span>
-                <span class="method-start">21467 ms</span>
+                <span class="method-start">51952 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyAlertBox</span>
-                <span class="method-start">22452 ms</span>
+                <span class="method-start">53375 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyConfirmBox</span>
-                <span class="method-start">22536 ms</span>
+                <span class="method-start">53772 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyPromptBox</span>
-                <span class="method-start">22639 ms</span>
+                <span class="method-start">54522 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">22900 ms</span>
+                <span class="method-start">55615 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.664 s <<< FAILURE! - in TestSuite
-com.application.testsuites.SimpleFormDemoPage.perform_addition  Time elapsed: 0.012 s  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 63.105 s <<< FAILURE! - in TestSuite
+com.application.testsuites.SimpleFormDemoPage.perform_addition  Time elapsed: 0.153 s  <<< FAILURE!
 org.openqa.selenium.NoSuchSessionException: 
 Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IN01N02824', ip: '192.168.43.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'IN01N02824', ip: '10.100.6.78', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
 Driver info: driver.version: RemoteWebDriver
 	at com.application.testsuites.SimpleFormDemoPage.perform_addition(SimpleFormDemoPage.java:42)
 

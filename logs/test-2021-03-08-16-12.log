@@ -1,0 +1,45 @@
+[INFO ] 2021-03-08 16:12:43.883 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-03-08 16:12:48.213 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-03-08 16:12:55.048 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-03-08 16:12:55.554 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-03-08 16:12:55.730 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-03-08 16:12:55.773 [main] Reports - **************************Test Started :simple_form_demo_page
+[INFO ] 2021-03-08 16:12:58.069 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Simple Form Demo')]
+[INFO ] 2021-03-08 16:12:58.077 [main] Reports - ************************ Test Passed :simple_form_demo_page
+[INFO ] 2021-03-08 16:12:58.085 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-03-08 16:13:00.732 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-03-08 16:13:09.918 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-03-08 16:13:11.414 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-03-08 16:13:12.225 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-03-08 16:13:12.230 [main] Reports - **************************Test Started :selectDropdown
+[INFO ] 2021-03-08 16:13:16.440 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Select Dropdown List')]
+[INFO ] 2021-03-08 16:13:16.469 [main] SeleniumActions - selecting element from dropdownBy.cssSelector: select#select-demo
+[INFO ] 2021-03-08 16:13:20.866 [main] SeleniumActions - Clicking on element By.cssSelector: #printAll
+[INFO ] 2021-03-08 16:13:20.922 [main] Reports - ************************ Test Passed :selectDropdown
+[INFO ] 2021-03-08 16:13:22.186 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-03-08 16:13:22.205 [main] Reports - **************************Test Started :perform_addition
+[ERROR] 2021-03-08 16:13:22.249 [main] Reports - ************************ Test Failed :perform_addition
+[INFO ] 2021-03-08 16:13:22.354 [main] BrowserSetup - **********************Browser Closed*********************************
+[INFO ] 2021-03-08 16:13:22.363 [main] BrowserSetup - **************************Test will be run on chrome**************************
+[INFO ] 2021-03-08 16:13:26.338 [main] BrowserSetup - *************************Browser Launched******************************
+[INFO ] 2021-03-08 16:13:33.513 [main] SeleniumActions - Navigated to :https://www.seleniumeasy.com/test
+[INFO ] 2021-03-08 16:13:35.314 [main] SeleniumActions - Clicking on element By.xpath: //div[@id='at-cv-lightbox-win']//child::div[@id='at-cv-lightbox-header']//child::a
+[INFO ] 2021-03-08 16:13:35.817 [main] SeleniumActions - Clicking on element By.cssSelector: a#btn_basic_example
+[INFO ] 2021-03-08 16:13:35.819 [main] Reports - **************************Test Started :navigate_JavascriptAlertPage
+[INFO ] 2021-03-08 16:13:37.240 [main] SeleniumActions - Clicking on element By.xpath: //div/a[contains(text(),'Javascript Alerts')]
+[INFO ] 2021-03-08 16:13:37.241 [main] Reports - ************************ Test Passed :navigate_JavascriptAlertPage
+[INFO ] 2021-03-08 16:13:37.242 [main] Reports - **************************Test Started :verifyAlertBox
+[INFO ] 2021-03-08 16:13:37.559 [main] SeleniumActions - Clicking on element By.cssSelector: button.btn.btn-default[onclick="myAlertFunction()"]
+[INFO ] 2021-03-08 16:13:37.560 [main] SeleniumActions - actions on alert
+[INFO ] 2021-03-08 16:13:37.636 [main] Reports - ************************ Test Passed :verifyAlertBox
+[INFO ] 2021-03-08 16:13:37.639 [main] Reports - **************************Test Started :verifyConfirmBox
+[INFO ] 2021-03-08 16:13:38.314 [main] SeleniumActions - Clicking on element By.cssSelector: button.btn.btn-default.btn-lg[onclick="myConfirmFunction()"]
+[INFO ] 2021-03-08 16:13:38.315 [main] SeleniumActions - actions on alert
+[INFO ] 2021-03-08 16:13:38.339 [main] SeleniumActions - actions on alert
+[INFO ] 2021-03-08 16:13:38.376 [main] Reports - ************************ Test Passed :verifyConfirmBox
+[INFO ] 2021-03-08 16:13:38.389 [main] Reports - **************************Test Started :verifyPromptBox
+[INFO ] 2021-03-08 16:13:38.862 [main] SeleniumActions - Clicking on element By.cssSelector: button.btn.btn-default.btn-lg[onclick="myPromptFunction()"]
+[INFO ] 2021-03-08 16:13:38.863 [main] SeleniumActions - actions on alert
+[INFO ] 2021-03-08 16:13:38.899 [main] SeleniumActions - actions on alert
+[INFO ] 2021-03-08 16:13:39.478 [main] Reports - ************************ Test Passed :verifyPromptBox
+[INFO ] 2021-03-08 16:13:41.558 [main] BrowserSetup - **********************Browser Closed*********************************

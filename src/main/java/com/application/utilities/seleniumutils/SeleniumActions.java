@@ -7,8 +7,6 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 
 import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -95,13 +93,16 @@ public class SeleniumActions extends Waits {
         return driver.findElement(locator).getText();
     }
 
-    public void getScreenshot(String methodName) {
+    public String getScreenshot(String methodName) {
+
+        String path=System.getProperty("user.dir")+"\\screenshots\\"+methodName+".png";
         try {
             File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(file, new File("./screenshots/test-" + methodName + ".png"));
+            FileUtils.copyFile(file, new File(path));
         } catch (Exception e) {
             e.getMessage();
         }
+        return path;
     }
 
 }
